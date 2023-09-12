@@ -2,5 +2,5 @@
 print("hello world")
 a = 6
 for i in range(1,a+1):
-    star = "* "*(a-i)
+    star = "* "*(i-1)
     print(star)
