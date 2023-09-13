@@ -4,3 +4,9 @@ a = 6
 for i in range(1,a+1):
     star = "* "*(i-1)
     print(star)
+# inverted rightangle triangle
+
+a = 6
+for i in range(1,a+1):
+    star = "* "*(a-i)
+    print(star)
