@@ -17,3 +17,10 @@ a = 6
 for i in range(1,a+1):
     space = "  "*(a-i)
     print(space+"* "*i)
+
+
+# pyramid pattern 
+a = 6
+for i in range(1,a+1):
+    space = " "*(a-i)
+    print(space+"* "*i)
