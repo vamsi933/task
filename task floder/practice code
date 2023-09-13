@@ -1,5 +1,87 @@
-
+# first code 
 print("hello world")
+
+
+# if condition codes 
+a = 90
+b = 60
+if(a>b):
+    print("True")
+else:
+    print("False")
+
+
+a = 90
+b = 60
+if(a==b):
+    print("True")
+else:
+    print("False")
+
+
+# for loop code
+a = 10
+for i in range(1,a+1):
+    print(i)
+
+
+# while code
+a = 10
+c = 1
+while (c<a):
+    print(c)
+    c = c+1 
+
+
+# for loop by using strings
+a = ["vamsi","das","tej","kan"]
+for i in a:
+    print(i)
+
+
+
+# list code
+a = [1,2,3,4,5,67,98]
+print(type(a))
+
+
+
+
+# indexing codes
+a = [1,2,3,4,5,67,98]
+print(a[3])
+
+
+# indexing 2
+a = [1,2,3,4,5,67,98]
+print(a[:3])
+
+# indexing 3
+a = [1,2,3,4,5,67,98]
+print(a[3:])
+
+
+# indexing 4
+a = [1,2,3,4,5,67,98]
+print(a[0:6])
+
+
+# string methods
+a = "hello this is a python programming we are started the new journey"
+for i in a:
+    if i=="a":
+        print(len(i))
+        break
+
+
+
+# string methods
+a = "hello this is a python programming we are started the new journey"
+
+print("p" in a)
+
+# patterns codes
+
 a = 6
 for i in range(1,a+1):
     star = "* "*(i-1)
@@ -24,3 +106,4 @@ a = 6
 for i in range(1,a+1):
     space = " "*(a-i)
     print(space+"* "*i)
+
