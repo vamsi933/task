@@ -145,6 +145,7 @@ print(a.index("x"))    # it will shows error
 
 
 # split function remove the commas in the string
+
 a = "hello, this, is, a, vamsi, i, am, learning, python"
 print(a.split(","))
 
