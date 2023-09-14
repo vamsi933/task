@@ -107,6 +107,9 @@ for i in range(1,a+1):
     space = " "*(a-i)
     print(space+"* "*i)
 
+
+
+
 # strings how to find the index  
 # strings by using find by first Occurance
 a = "hello this is a vamsi ii am learning pythoni"
@@ -154,3 +157,5 @@ print("-".join(a))
 
 a = ["30","12","2000"]
 print("-".join(a))
+
+    
