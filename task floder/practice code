@@ -158,4 +158,47 @@ print("-".join(a))
 a = ["30","12","2000"]
 print("-".join(a))
 
-    
+a = ["30","12","2000"]
+print("-".join(a))
+
+
+
+
+a = ["30","12","2000"]
+print("-".join(a))
+
+
+
+# 14-09-2023 class on string cases
+#upper case
+
+a = "learning PYTHON"
+print(a.upper())
+
+
+# lower case
+a = "learning PYTHON"
+print(a.lower())
+
+
+# swapcase
+a = "LearNinG PytHoN"
+print(a.swapcase())
+
+#Tittle case
+a = "learning pYTHON iN mAROIX"
+print(a.title())
+
+# capitalize
+a = "learning pYTHON iN mAROIX"
+print(a.capitalize())
+
+# startswith and endswith
+a= "www.amazon.com"
+print(a.startswith("www."))
+
+#endswith
+a= "www.amazon.com"
+print(a.endswith(".com"))
+
+
