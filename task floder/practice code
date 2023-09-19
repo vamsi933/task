@@ -167,6 +167,9 @@ print("-".join(a))
 a = ["30","12","2000"]
 print("-".join(a))
 
+# replace a string
+a = "20,30,50,60,900"
+print(a.replace('20','90'))
 
 
 # 14-09-2023 class on string cases
@@ -200,5 +203,22 @@ print(a.startswith("www."))
 #endswith
 a= "www.amazon.com"
 print(a.endswith(".com"))
+
+
+#cheking the string upper or lower
+a = "learig"
+print(a.isupper())
+
+
+a = "LEARNING"
+print(a.islower())
+
+
+#fining the half of the string by using the length
+a = "vamsidhar"
+b= (len(a)/2)+2
+b = int(b)
+s = a[b:]
+print(s)
 
 
