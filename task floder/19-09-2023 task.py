@@ -19,7 +19,7 @@ else:
 
 str_1 = "A"
 
-vowels = "a","e","i","o","u"
+vowels = "a","e","i","o","u","A","E","I","O","U"
 if str_1 in vowels:
     print("Vowel")
 else:
