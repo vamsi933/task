@@ -221,4 +221,6 @@ b = int(b)
 s = a[b:]
 print(s)
 
+a = int(input("enter"))
+print(a)
 

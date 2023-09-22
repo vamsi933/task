@@ -88,3 +88,8 @@ if (sorted(str_1)==sorted(str_2)):
     print("Anagram")
 else:
     print("Not Anagram")
+
+
+
+
+
