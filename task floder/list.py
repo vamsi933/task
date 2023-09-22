@@ -116,3 +116,7 @@ even_num.sort()
 odd_num.sort()   
 print(even_num)   # 6 8
 print(odd_num)    # 1 3 5 7 
+
+
+a = input()
+print(a)
