@@ -94,7 +94,7 @@ print([list_1.count(list_2)])
 
 #exmple 
 
-a = [1,2,3,2,4,5,2,45,2]
+a = list(map(int,input().split()))
 print(a.count(2))
 
 
@@ -118,5 +118,3 @@ print(even_num)   # 6 8
 print(odd_num)    # 1 3 5 7 
 
 
-a = input()
-print(a)
