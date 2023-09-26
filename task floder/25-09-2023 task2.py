@@ -145,7 +145,7 @@ for i in list_1:
 
 #Write a Python program to remove duplicates from a list.
 
-list_1 = input()                                       #marolix
+list_1 = input()                                     #marolix technology
 
 p=[]
 for char in list_1:
