@@ -1,5 +1,16 @@
 # list topics
 # create a list
+#append
+#insert
+#remove
+#pop
+#clear
+#delete
+#extend
+#sort
+#count
+
+#by taling user input
 list_1 = (input().split())
 print(list_1)
 
