@@ -87,3 +87,9 @@ y = {"google", "microsoft", "facebook"}
 z = x.isdisjoint(y)
 
 print(z)
+
+
+
+def add(a,b):
+    return a+b 
+add(10,20)
