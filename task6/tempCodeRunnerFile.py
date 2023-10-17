@@ -1,6 +1,3 @@
-def exponential(x):
-    def square(y):
-        return y * y
-    return square(x) * square(x)
-
-print(exponential(2))
+a = [1,2,3,4,5,6,7,8,9,10]
+b = list(map(lambda x: x%2 == 0,a))
+print(b)
