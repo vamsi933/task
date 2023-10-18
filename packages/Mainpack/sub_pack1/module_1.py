@@ -10,3 +10,10 @@ def string_count(a):
         
     print(upper_case)
     print(lower_case)
+
+
+def even_all(a):
+    for i in range(1,a+1):
+        if i%2 == 0:
+            return i 
+
