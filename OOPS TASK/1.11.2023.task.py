@@ -29,11 +29,6 @@ class Employee:
     def method4(self):
         a = "WORK FROM HOME"
         print(f"Local variable by directly variable is :  {a}")
-
-
-
-
-
 e  = Employee("vamsi")
 e.method1()
 e.method2()
