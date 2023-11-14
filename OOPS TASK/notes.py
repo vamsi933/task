@@ -113,26 +113,26 @@ ex : def m1(self)
 '''
 #EXAMPLE FOR THE INSTANCE METHOD
 
-# class Car:
+# class bike:
 #     def m1(self):
-#         self.name ="vamsi"
-#         self.id = 202
-# e = Car()
+#         self.name = "NS160"
+#         self.rpice = "1lak"
+# e = bike()
 # e.m1()
 # print(e.name)
-# print(e.id)
+# print(e.rpice)
+
 
 
 # #Class method
 '''
-1>inside the method if we are declare a some static variable 
+1>inside the method if we are declare a some static variable. 
 2> we can declare a classmetho by @classmethod decorator
 3> we can acces static variable using cls inside of the classmethod and 
 using classname outside of theclass
 4> we can acces classmethod outside using of class ORV and classname.
 '''
 # #EXAMPE FOR THE CLASS METHOD
-
 # class Mobile:
 #     Brand = "IQOO"
 #     @classmethod
@@ -171,21 +171,21 @@ using classname outside of theclass
 without having outer class there is no innerclass
 """
 #EXAMPLE INNER CLASS
-class Outer:
+class Bike:
     def __init__(self):
         self.name = "vamsi"
         print("This is outer calss name ")
     def m1 (self):
         print(self.name)
-    class inner:
+    class Car:
         def __init__(self):
             self.id = 101
             print("This is inner class")
         def m2(self):
             print(self.id)
-e = Outer()
+e = Bike()
 e.m1()
-c = e.inner()
+c = Bike.Car()
 c.m2()
 
 
@@ -196,18 +196,28 @@ the features of the existing class are available to the newly crated
 class is inhertance
 > there are 6 method
 1.single inhertance
-2.multilevel inhertance
+2.multilevel inhertance  
 3.multiple inhretance
 4.herarical inhertance
 5.hybird
 6.cyclic
 '''
+# class Gp:
+#     def __init__(self):
+#         self.name ="Das"
+#     def m1(self):
+#         print(self.name)
+# class p(Gp):
+#     def m2(self):
+#         print("This is parent class")
+# e = p()
+# e.m1()
+# e.m2()
 #SINGLE INHERTANCE
 '''
 when you have a class that has basic characteristics and you 
 need to create more classes that have all the basic characteristics
 and some specific characteristics.
-
 '''
 #EXample of single 
 class parent:
@@ -235,6 +245,7 @@ class, and then a third class inherits from the second class,
 class Animal:
     def __init__(self):
         self.name = "animals"
+        print(self.name)
     def m1(self):                                                  #a class from to B               
         print("this is main class animal")                          # b class to c                                                                  # 
 class Rat(Animal):                                                   # c to d
@@ -247,7 +258,7 @@ e = cat()
 e.m1()
 e.m2()
 e.m3()
-print(e.name)
+
 
 
 #multple inhertnce
