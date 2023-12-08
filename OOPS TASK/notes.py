@@ -768,3 +768,13 @@ a.getter_show()
 print('name :',a.name)
 print('getter age :',a.age)
 a.setter_sho(30)
+
+try:
+    print(10/2)
+    print(10/2)
+    print(20/2)
+except:
+    print(20-90)
+    print(10+20)
+    print(3-3)
+    print(5-9)
